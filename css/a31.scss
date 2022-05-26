@@ -1,0 +1,29 @@
+// :root{
+//     --ngjyra: lightblue ;
+
+// }
+
+// header{
+//     background-color:   var(--ngjyra);
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// header img{
+//     width: 100px;
+//     height: 100px;
+// }
+
+
+// header ul{
+//     list-style: none;
+
+// }
+
+// header ul a {
+//     text-decoration: none;
+// }
+
+$textcolor: black ;
+
+@import '_header.scss'

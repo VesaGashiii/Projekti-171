@@ -1,0 +1,28 @@
+body{
+    background-color: #c5d3f6;
+}
+
+tr{
+    border-bottom: solid 1px black;
+}
+table{
+    width: 1000px;
+    overflow: hidden;
+    background-color: white;
+}
+.vesa{
+    background-color: #6d7ae0;
+}
+.dy{
+    background-color: #c5d3f6;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+th{
+    color: white;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+     margin-top: 50px; 
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 20px;
+    color: green;
+    font-weight: 700;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.modal{
+    background-color: green;
+    width: 500px;
+    border-radius: 5px;
+    visibility: hidden;
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
+    left: -50px;
+
+}
+
+.close{
+    font-weight: 700;
+    position: absolute;
+    left: 460px;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.modal:target{
+    visibility: visible;
+}

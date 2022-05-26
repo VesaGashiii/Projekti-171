@@ -1,0 +1,46 @@
+.img2{
+    opacity: 0.5;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.box:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+}
+
+.dropdown{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content{
+     display: none; 
+    text-align: center;
+    box-shadow: 0 3px 3px 3px gray;
+}
+
+.content a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.dropdown:hover .content{
+    display: block;
+    
+}

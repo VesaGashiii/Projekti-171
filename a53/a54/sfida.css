@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    position: relative;
+    left: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightcoral ;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.modal{
+    background-color: lightcoral;
+    width: 400px;
+    border-radius: 13px;
+    padding: 10px;
+    visibility: hidden;
+    z-index: 1;
+    position: relative;
+    bottom: 50px;
+    left: -50px;
+}
+
+
+.close{
+    font-weight: 700;
+    position: absolute;
+    left: 375px;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: red ;
+    color: white;
+}
+
+.kuqe{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border:  2px red solid;
+}
+
+.bardh{
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    border:  2px white solid;
+    position: relative;
+    left: 175px;
+}
+
+.modal:target{
+    visibility: visible;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 50px;
+}

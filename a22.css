@@ -1,0 +1,184 @@
+.aa1{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.box1{
+    width: 50%;
+}
+
+.Alea{
+    
+    font-size: 20px;
+}
+
+/* .link{
+    font-size: 20px;
+    margin-left: 100px;
+} */
+.box2{
+    width: 45%;
+    margin-top: 50px;
+}
+
+.product{
+    
+    font-size: 25px;
+    margin-top: -30px;
+
+}
+
+
+.a4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.vintage{
+    width: 47%;
+    height: 200px;
+}
+.a3{
+    
+    width: 50%;
+    height: 400px;
+    
+}
+
+img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+
+.ngj{
+    font-size: 30px;
+    position: relative;
+    top: -28px;
+
+}
+
+.a{
+    width: 20px;
+    height: 20px;
+    border-radius: 60px;
+    margin: 10px;
+}
+
+.b{
+    background-color: navy;
+}
+
+.c{
+    background-color: purple;
+}
+
+
+.d{
+    background-color: darkred;
+}
+
+.e{
+    background-color: black;
+}
+
+.ngjyrat{ 
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    position: absolute;
+    top: 400px;
+}
+
+.paret{
+    font-size: 60px;
+    position: relative;
+    margin-left: -250px;
+    
+}
+
+
+.butonn{
+    border: solid black 2px;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+    margin-left: -120px;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    body{
+        margin: 0;
+    }
+
+    .aa1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+        text-align: center;
+    }
+    .box2{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+
+    .a4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Alea{
+        text-align: center;
+
+    }
+
+    
+    .vintage{
+        text-align: center;
+        width: 100%;
+    }
+    .a3{
+        width: 100%;
+    }
+    .ngjyrat{
+        position: absolute;
+        top: 800px;
+        text-align: center;
+        padding-left: 130px; 
+        
+    }
+
+    .product{
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+
+    
+
+
+
+}

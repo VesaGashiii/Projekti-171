@@ -1,0 +1,15 @@
+form{
+    background-color: lightgrey;
+    width: 250px;
+    height: 500px;
+    padding: 10px;
+}
+.epara{
+    font-size: 20px;
+}
+.edyta{
+    width: 240px;
+    height: 30px;
+    background-color: green;
+    margin-left: 8px;
+}

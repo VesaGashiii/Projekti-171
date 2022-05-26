@@ -1,0 +1,39 @@
+input[type="text"]{
+    border: 3px solid red;
+}
+.epara{
+    color: pink;
+}
+
+.epara:hover{
+    font-size: 24px;
+    background-color: orange;
+}
+
+.edyta:link{
+    background-color: green;
+}
+
+.etreta:active{
+    background-color: blue;
+}
+
+input[type="focus"]:focus{
+    background-color: purple;
+}
+
+.a4:hover{
+    background-color: red;
+}
+
+.a4:hover{
+    background-color: blue;
+}
+
+.a4:link{
+    background-color: green;
+}
+
+.a4{
+    font-size: 24px;
+}

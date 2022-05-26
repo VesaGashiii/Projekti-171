@@ -1,0 +1,222 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 200px 200px 100px 400px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+}
+
+.box1{
+    
+    grid-row: 1/6;
+    grid-column: 1/2;
+    border: 3px solid pink;
+}
+
+.box2{
+   
+    grid-row: 1/2;
+    grid-column: 2/6;
+    border: 3px solid pink;
+
+}
+
+.box3{
+    
+    grid-row: 2/3;
+    grid-column: 2/4;
+    border: 3px solid pink;
+}
+
+.box4{
+    border: 3px solid pink;
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+
+
+
+
+.box5{
+    border: 3px solid pink;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.box6{
+    border: 3px solid pink;
+    grid-row: 2/4;
+    grid-column: 5/6;
+}
+
+.box7{
+    border: 3px solid pink;
+    grid-row: 4/5;
+    grid-column: 2/6;
+
+}
+
+.box8{
+    border: 3px solid pink;
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+.box9{
+    border: 3px solid pink;
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
+
+.box10{
+    border: 3px solid pink;
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
+
+.box11{
+    border: 3px solid pink;
+    grid-row: 5/6;
+    grid-column: 5/6;
+}
+
+.intersporti{
+    width: 290px;
+    height: 70px;
+}
+
+.explore{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px;
+    
+}
+
+.light{
+    width: 30px;
+    height: 30px;
+}
+
+.bulb{
+    display: flex;
+    position: relative;
+    left:35px ;
+    top: -40px ;
+}
+
+.tesha{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+
+.maica{
+    display: flex;
+    position: relative;
+    top: -60px;
+    left: 35px;
+}
+
+.shoe{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -40px;
+}
+
+.patika{
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 35px;
+}
+
+.acc{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -80px;
+}
+
+.acces{
+    display: flex;
+    position: relative;
+    top: -120px;
+    left: 35px;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -110px;
+
+}
+
+.dorzat{
+    display: flex;
+    position: relative;
+    top: -150px;
+    left: 35px;
+}
+
+.qant{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -135px;
+
+}
+
+.bag{
+    display: flex;
+    position: relative;
+    top: -170px;
+    left: 35px;
+
+}
+
+.help{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: 400px;
+}
+
+.center{
+    display: flex;
+    position: relative;
+    top:360px ;
+    left: 35px;
+}
+
+.women{
+    width: 90px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: pink;
+
+}
+
+.cika{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: 5px;
+
+}
+.qika{
+    display: flex;
+    position: relative;
+    top: -28px;
+    left: 28px;
+    top: -34px;
+}
+
+

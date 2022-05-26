@@ -1,0 +1,176 @@
+body{
+    background-color: lightskyblue;
+}
+
+.box{
+    width: 90%;
+    height: 735px;
+    background-color: darkblue;
+    border-radius: 10px;
+    margin-left: 35px;
+    padding: 40px;
+    
+}
+
+h1{
+    color: white;
+    /* margin-left: 10px; */
+}
+
+p{
+    color: white;
+    font-size: 15px;
+}
+
+.teli{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 120px; */
+}
+
+.telefoni{
+    margin-top: -40px;
+    margin-left: 60px;
+}
+
+.mail{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 30px ; */
+}
+
+.maili{
+    margin-top: -40px;
+    margin-left:60px ;
+
+    
+    
+}
+
+.location{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 25px; */
+}
+
+.locationi{
+    margin-top:-40px;
+    margin-left: 60px;
+}
+
+.facebook, .twitter, .instagram{
+    width: 50px;
+    height: 50px;
+    margin-top: 180px;
+}
+
+
+form{
+    position: relative;
+    left: 50%;
+    bottom: 70%;
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-left: 300px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+
+
+
+.input{
+    padding: 10px;
+    padding-left: 50px;
+    margin-left:60px;
+    margin-top: 20px;
+
+}
+
+
+form{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: -100px;
+}
+
+
+.maili2{
+    color: black;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.emri{  color: black;
+    font-size: 20px;
+    margin-left: 60px;
+    /* margin-top: 80px; */
+}
+
+.message{
+    color: black;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+textarea{
+    margin-left: 60px;
+}
+
+.button{
+width: 100px;
+height: 40px;
+margin-left: 207px;
+color: white;
+background-color: blue;
+border-radius: 7px;
+}
+
+
+
+.input:hover{
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 180px;
+    height: 20px;
+    margin-left: 60px;
+}
+
+.hoverat:hover{
+    border: 2px solid lightblue;
+    width: 200px;
+}
+   
+.hoverat{
+    margin-top: 100px;
+}
+
+
+
+.facebook:hover{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.twitter:hover{
+    border: 2px solid blue;
+    border-radius: 5px;
+
+}
+
+
+.instagram:hover{
+    border: 2px solid blue;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,114 @@
+.a1:hover{
+    background-color: red;
+}
+
+.a2:active{
+    background-color: blue;
+}
+
+.a3:link{
+    background-color: green;
+}
+
+a{
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* p::first-letter{
+    background-color: red;
+} */
+
+p::first-line{
+    background-color: pink;
+}
+
+p::before{
+    content: "BEFORE";
+    color: blue;
+}
+
+p::after{
+    content: "AFTER";
+    color: orange;
+}
+
+
+
+/* h1::before{
+    padding: 5px 20px;
+    content: "";
+    background-color: red;
+}
+
+h1::after{
+    padding: 5px 20px;
+    content: "";
+    background-color: red;
+} */
+
+
+h1::before{
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-color: red;
+    display: inline-block;
+}
+
+h1::after{
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-color: red;
+    display: inline-block;
+}
+
+img{
+    width: 100px;
+    animation: vesa 3s;
+}
+
+@keyframes vesa{
+    from{
+        width: 50px;
+
+    }
+
+    to{
+        width: 200px;
+    }
+}
+
+
+:root{
+    --ngjyra: green ;
+
+    --gjersia: 30px;
+}
+
+
+body{
+    background-color: var(--ngjyra);
+
+}
+
+h1{
+    border: var(--gjersia) black solid;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient( to bottom right, red, yellow, pink, blue, orange);
+
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(blue, yellow, white);
+}
+

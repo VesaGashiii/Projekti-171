@@ -1,0 +1,102 @@
+.body{ height: 700px;
+
+    background: url(https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg);
+}
+
+
+.a1{
+    background-color: lightgrey;
+    height: 100px;
+}
+
+h3{
+    position: relative;
+    top: 25px;
+}
+
+.home{
+    color: blue;
+    position: relative;
+    left:600px;
+}
+
+.template{
+    color: blue;
+    position: relative;
+    left: 650px;
+}
+
+.license{
+    color: blue;
+    position: relative;
+    left: 700px;
+}
+
+.support{
+    color: blue;
+    position: relative;
+    left: 750px;
+}
+
+.contact{
+    color: blue;
+    position: relative;
+    left: 800px;
+}
+
+.pricing{
+    color: blue;
+    position: relative;
+    left: 850px;
+}
+
+.btn{
+    position: relative;
+    left: 900px;
+    
+}
+
+.body{
+    height: 400px;
+    padding-top: 70px ;
+}
+
+
+
+.h1{
+    text-align: center;
+    /* padding-top: 100px; */
+    color: darkblue;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.we{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+
+
+.a2{
+    margin-left: -200px;
+}
+
+.col-lg-3{
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid grey;
+    text-align: center;
+   
+    
+    
+}
+
+.body2{
+    height: 250px;
+    background: url(https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg);
+
+}
+
+

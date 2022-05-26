@@ -1,0 +1,49 @@
+/* .box1{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    overflow: auto;
+    overflow: scroll;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+
+}
+.box{
+    width: 210px;
+    height: 270px;
+    border: 2px solid red;
+    overflow: auto;
+} */
+
+.left{
+    float: left;
+    border: 2px solid red;
+}
+
+.right{
+    float: right;
+    border: solid 2px blue;
+
+}
+
+.main{
+    width: 50%;
+    height: 300px;
+    border: 2px solid green;
+    float: left;
+}
+.sidebar{
+    width: 30%;
+    height: 150px;
+    border: 2px solid orange;
+    float: right;
+}
+
+.footer{
+  
+    border: 2px solid red;
+    clear: both;
+}

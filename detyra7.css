@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 3px black solid;
+    background-color: red;
+    text-align: center;
+    color: white;
+    
+}
+
+.first{
+
+    margin-left: 350px;
+}

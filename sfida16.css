@@ -1,0 +1,17 @@
+div{
+    width: 100%;
+    height:100px ;
+    background-color: lightskyblue;
+    position: fixed;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    position: relative;
+    left: 70%;
+    bottom: 20px;
+    margin-left: 20px;
+}

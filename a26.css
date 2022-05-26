@@ -1,0 +1,15 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    transition: width 3s ease-out;
+    /* transition-delay: 5s; */
+}
+
+
+.box:hover{
+    width: 400px;
+    /* height: 500px; */
+
+}
+

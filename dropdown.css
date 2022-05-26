@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: teal;
+    height: 80px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+a{
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: green;
+}
+
+ul li ul li {
+    background-color: gray;
+    float: none;
+}
+
+ul li ul {
+    display: none;
+}
+
+
+ul li:hover ul{
+    display: block;
+}

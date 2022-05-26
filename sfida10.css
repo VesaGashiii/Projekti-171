@@ -1,0 +1,19 @@
+table, tr, th, td {
+    border: solid black 1px;
+    border-collapse: collapse; 
+}
+
+.nishat{
+    background-color: red;
+}
+.treshat {
+    background-color: orange;
+}
+
+.pesshet{
+    background-color: greenyellow;
+}
+
+.katershet{
+    background-color: yellow;
+}

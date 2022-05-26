@@ -1,0 +1,97 @@
+.aa1{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.box1{
+    width: 50%;
+}
+
+.Alea{
+    
+    font-size: 20px;
+}
+
+.con{
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.a4{
+    width: 100%;
+    height: 435px;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+input{
+   margin: 15px;
+   width: 310px;
+   height: 30px;
+}
+
+textarea{
+    margin: 15px;
+}
+
+
+button{
+    border: black solid 2px;
+    color: white;
+    background-color: black;
+    width: 319px;
+    height: 40px;
+    margin-left: 14px;
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+
+    .aa1{
+        display: flex;
+        flex-direction: column;}
+
+        .box1{
+            width: 100%;
+            text-align: center;
+        }
+        .box2{
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact{
+            text-align: center;
+        }
+
+        .a4{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .a5{
+            text-align: center;
+        }
+
+
+        
+
+
+
+}

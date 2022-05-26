@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 300px 30px 30px 120px 100px;
+    grid-gap: 10px;
+}
+
+
+.box1{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    background-color: navy;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    
+    }
+
+.box2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
+}
+
+
+.profili{
+    height: 100px;
+    display: flex;
+    position: relative;
+    left: 185px;
+    top: 100px;
+}
+.box3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 2px solid gray;
+}
+.box4{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border: 2px solid gray;
+}
+.box5{
+    grid-column: 2/3;
+    grid-row: 5/6;
+   /* text-align: center; */
+    /* position: relative;
+    left: 220px; */
+    background-color: white;
+}
+
+
+
+.box6{
+    grid-column: 1/6;
+    grid-row: 6/7;
+    background-color: navy;
+}
+    
+.ks{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+p{
+    color: white;
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: -60px;
+}
+
+.log{
+    color: black;
+    display: flex;
+    position: relative;
+    top: 130px;
+    left: 198px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.btn{
+    position: relative;
+    left: 210px;
+    background-color:navy;
+    color: white;
+}
+   

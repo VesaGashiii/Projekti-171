@@ -1,0 +1,28 @@
+/* .box{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    opacity: 0.3;
+}
+
+img:hover{
+    opacity: 1;
+} */
+
+
+
+.b{
+    background-color: teal;
+    display: inline-block;
+}
+
+.content a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    
+}

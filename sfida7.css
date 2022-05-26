@@ -1,0 +1,18 @@
+h1{
+    border: red solid;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+p{
+    width: 600px;
+    height: 400px;
+    border: 2px solid;
+    background-color: yellow;
+    margin-top: 50px;
+}
+a{
+    border-bottom: 3px dashed;
+    background-color: orange;
+}

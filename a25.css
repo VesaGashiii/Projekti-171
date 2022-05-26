@@ -1,0 +1,20 @@
+.box{
+    width: 210px;
+    height: 180px;
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.box:hover{
+    /* transform: translate(50px,100px); */
+    transform: translateX (100px);
+    transform: translateY (100px);
+    transform: rotate(30deg);
+    transform: translate(100px) rotate(40deg);
+    transform: scale(-1);
+    transform: scaleY(3);
+    transform: skew(50deg);
+}

@@ -1,0 +1,164 @@
+.first{
+    height: 60px;
+    width:  400px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.netflix{
+    width: 30px;
+    height: 30px;
+   position: relative;
+   top: 8px;
+}
+
+.netflixi{
+    position: relative;
+    top: -45px;
+    left: 35px; 
+}
+
+.bill{
+    position: relative;
+    top: -55px;
+    left: 33px;
+}
+
+.done1{
+    border: solid blue 2px;
+    border-radius: 3px;
+    width: 45px;
+    height: 13px;
+    position: relative;
+    top: -90px;
+    left: 90px;
+    text-align: center;
+    /* padding: 2px; */
+    padding-bottom: 5px;
+    
+
+}
+
+.dollar{
+    position: relative;
+    top: -135px;
+    left: 280px;
+}
+
+.done2{
+    border: solid blue 2px;
+    border-radius: 3px;
+    width: 45px;
+    height: 13px;
+    position: relative;
+    top: -90px;
+    left: 100px;
+    text-align: center;
+    /* padding: 2px; */
+    padding-bottom: 5px;
+    
+
+}
+
+.done3{
+    border: solid blue 2px;
+    border-radius: 3px;
+    width: 58px;
+    height: 13px;
+    position: relative;
+    top: -90px;
+    left: 100px;
+    text-align: center;
+    /* padding: 2px; */
+    padding-bottom: 5px;
+    
+
+}
+
+
+.kaltert{
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    position: relative;
+    left: 550px;
+    top: -550px;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 5px 5px;
+}
+
+
+.bigbox{
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+
+.pare{
+    position: relative;
+    top: 20px;
+    left: 15px ;
+}
+
+
+.done4{
+    border: solid white 2px;
+    border-radius: 3px;
+    width: 58px;
+    height: 13px;
+    position: relative;
+    top: -20px;
+    left: 150px;
+    text-align: center;
+    /* padding: 2px; */
+    padding-bottom: 5px;
+
+}
+
+.shigjetat{
+    height: 15px;
+    height: 15px;
+    position: relative;
+    top: -80px;
+    left: 310px;
+}
+.shigjetat1{
+    height: 15px;
+    height: 15px;
+    position: relative;
+    top: -135px;
+    left: 310px;
+}
+
+.shigje1{
+    position: relative;
+    top:-125px ;
+    left: 330px;
+}
+
+.shigje2{
+    position: relative;
+    top:-175px ;
+    left: 330px;
+}
+
+
+.card{
+    height: 80px;
+    width: 400px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    position: relative;
+    left: 550px;
+    top: -500px;
+    box-shadow: gray 5px 5px 5px 5px;
+}
+
+.card1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+

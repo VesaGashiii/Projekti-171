@@ -1,0 +1,198 @@
+.aa1{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+
+.box1{
+    width: 50%;
+}
+
+.Alea{
+    padding: 20px;
+}
+
+
+/* body{
+    padding-left: 20px;
+} */
+
+
+.box2{
+ width: 45%;
+ margin-top: 0px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.a1{
+    width: 35%;
+    padding:10px ;
+    background-color: plum;
+}
+
+
+.teksti{
+    font-size: 30px;
+    font-weight:700 ;
+}
+
+.epara{
+    border: black solid 2px;
+    background-color: black;
+    color: white;
+    position: relative;
+   bottom: -10px;
+    left: 30px;
+
+    
+}
+
+.edyta{
+    border: black solid 2px;
+    color: black;
+    background-color: plum;
+    position: relative;
+   bottom: -10px;
+    left: 30px;
+}
+
+.box5{
+    width: 55%;
+    height: 300px;
+
+}
+
+
+img{
+    width: 100%;
+   height: 100%;
+}
+
+.a2{
+    display: flex;
+    flex-direction: row;
+    height: 300px; 
+    padding: 20px;
+}
+
+span{
+    color: plum;
+}
+
+
+.missions{
+    font-size: 50px;
+    padding: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.box4{
+    display: flex;
+    flex-direction: row;
+}
+.a3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.box6{
+    width: 35%;
+}
+
+.box7{
+    width: 55%;
+    position: relative;
+    left: 0
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .aa1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+        text-align: center;
+    }
+    .box2{
+        width: 100%;
+        text-align: center;
+    }
+    
+ 
+
+    .a3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box6{
+        width: 100%;
+
+    }
+    .box7{
+        width: 100%;
+        text-align: center;
+    }
+    .Alea{
+        padding: 0;
+    }
+
+    .a2{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        position: relative;
+        top: 190px;
+    }
+    .a1{
+        width: 100%;
+        padding: 0;
+    }
+    .box5{
+        width: 100%;
+    }
+    .a3{
+        position: relative;
+        top: 250px;
+        flex-direction: column;
+    }
+    .box6, .box7{
+        width: 100%;
+    }
+
+    .box4{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        position: relative;
+        top: -20px;
+        left: 150px;
+      
+    }
+
+    .box3{
+        text-align: center;
+    }
+
+    
+  
+
+
+
+
+} 
+
+
+

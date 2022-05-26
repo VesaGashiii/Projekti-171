@@ -1,0 +1,36 @@
+$ngjyra: lightblue;
+$gjeresia: 100px ;
+
+
+@mixin hello($drejtimi){
+    display: flex;
+    flex-direction: $drejtimi ;
+}
+
+
+header{
+    background-color: $ngjyra;
+    @include hello(column) ;
+    // display: flex;
+    // flex-direction: row;
+
+    img{
+        width: $gjeresia;
+        height: $gjeresia;
+    }
+
+
+    ul{
+        list-style: none;
+        // display: flex;
+        // flex-direction: row;
+
+        @include hello(row) ;
+    }
+
+    a{
+        text-decoration: none;
+        color: $textcolor;
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,129 @@
+
+
+body{
+    background-color: lightgray;
+}
+
+
+.kutija{
+  
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+}
+
+h1{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    padding: 15px;
+}
+span{
+    font-size: 15px;
+    color: lightgray;
+}
+h2{
+    color: orange;
+    padding-left: 15px;
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+    color: grey;
+    padding-left: 10px;
+}
+
+.vija{
+    width: 370px;
+    height: 3px;
+    background-color: gray;
+   
+    margin-left: 10px; 
+}
+
+.nike{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.p1{
+    display: inline-block;
+}
+
+.boxi{
+    width: 300px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 45px;
+    
+}
+
+.teksti{
+    padding-left: 60px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.kutija2{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+}
+
+.kutija3{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+
+}
+
+.teksti2{
+    padding-left: 60px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: black;
+
+}
+
+.teksti3{
+    padding-left:  35px;px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: black;
+}
+.aa1{
+background-color: green;
+color: white;
+border-radius: 10px;
+width: 250px;
+padding: 15px;
+margin-left: 45px;
+}
+
+
+.aa2{
+    background-color: white;
+color:black;
+border-radius: 10px;
+width: 250px;
+padding: 15px;
+margin-left: 45px;
+border: solid black 2px;
+}
+
+

@@ -1,0 +1,36 @@
+p.p1{
+    background-color: brown;
+}
+
+.p1, .p2{
+    color: darkorchid;
+}
+
+div + p{
+    background-color: deeppink;
+}
+
+p:first-child{
+    background-color: violet;
+}
+p:last-child{
+    background-color: lightsalmon
+}
+.p3~ul{
+    background-color: lightskyblue;
+}
+
+.p4~ul{
+    background-color: navy;
+}
+h1{
+    color: black;
+    background-color: gold;
+}
+.muaji{
+    background-color: red;
+}
+.h1{
+    background-color: teal;
+    color: white;
+}
